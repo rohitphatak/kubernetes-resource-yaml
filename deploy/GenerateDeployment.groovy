@@ -7,7 +7,7 @@ class GenerateDeployment {
         File outFile = new File("${FILE_NAME}-${resources}.yaml")
 
         StringBuilder sb = new StringBuilder()
-        for (int i=1;i<resources;i++) {
+        for (int i=1;i<=resources;i++) {
             sb.append("apiVersion: apps/v1").append("\n")
             sb.append("kind: Deployment").append("\n")
             sb.append("metadata:").append("\n")
