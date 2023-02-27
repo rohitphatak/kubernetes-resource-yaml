@@ -7,7 +7,7 @@ spec:
 
   # When the node receives a request on the static port (30163)
   # "select pods with the label 'app' set to 'echo-hostname'"
-  # and forward the request to one of them
+  # replaced with test
   selector:
     app: ksm-mock
 
