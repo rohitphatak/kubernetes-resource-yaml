@@ -1,6 +1,6 @@
 
 class GenerateDeployment {
-    static final String FILE_NAME = "deployment";
+    static final String FILE_NAME = "deployment-";
     static void main(String[] args) {
 
         int resources = 40
